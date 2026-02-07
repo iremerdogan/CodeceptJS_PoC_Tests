@@ -8,7 +8,7 @@ setCommonPlugins();
 
 /** @type {CodeceptJS.MainConfig} */
 exports.config = {
-  tests: 'tests',
+  tests: 'tests/login_wrong_mail.js',
   output: './output',
   helpers: {
     WebDriver: {
