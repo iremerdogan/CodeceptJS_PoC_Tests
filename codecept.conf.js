@@ -8,16 +8,16 @@ setCommonPlugins();
 
 /** @type {CodeceptJS.MainConfig} */
 exports.config = {
-  tests: 'tests/login_wrong_mail.js',
+  tests: 'tests/*.js',
   output: './output',
   helpers: {
     WebDriver: {
-      url: 'https://www.letgo.com',
+      url: "http://localhost",
       browser: 'firefox'
     }
   },
   include: {
     I: './steps_file.js'
   },
-  name: 'CodeceptJS_Letgo'
+  name: 'CodeceptJS_PoC_Tests'
 }
