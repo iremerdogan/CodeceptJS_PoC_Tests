@@ -12,12 +12,12 @@ exports.config = {
   output: './output',
   helpers: {
     WebDriver: {
-      url: 'https://www.sahibinden.com/en',
+      url: 'https://www.letgo.com',
       browser: 'firefox'
     }
   },
   include: {
     I: './steps_file.js'
   },
-  name: 'CodeceptJS_Sahibinden'
+  name: 'CodeceptJS_Letgo'
 }
